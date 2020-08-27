@@ -18,3 +18,9 @@
 - [] subpage_contact
 
 ### Library
+
+- [x] React-router-dom
+- [x] React-helmet
+- [x] React-swiper
+- [x] styled-components
+- [x] Props-Types

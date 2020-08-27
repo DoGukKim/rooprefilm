@@ -1,24 +1,105 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createGlobalStyle } from "styled-components";
 
+const GlobalStyle = createGlobalStyle`
+@font-face {
+  font-family: Spoqa Han Sans;
+  font-weight: 200;
+  src: url(../public/fonts/Spoqa\ Han\ Sans\ Thin.ttf);
+}
+@font-face {
+  font-family: Spoqa Han Sans;
+  font-weight: 300;
+  src: url(../public/fonts/Spoqa\ Han\ Sans\ Light.ttf);
+}
+@font-face {
+  font-family: Spoqa Han Sans;
+  font-weight: 400;
+  src: url(../public/fonts/Spoqa\ Han\ Sans\ Regular.ttf.ttf);
+}
+@font-face {
+  font-family: Spoqa Han Sans;
+  font-weight: 500;
+  src: url(../public/fonts/Spoqa\ Han\ Sans\ Bold.ttf.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Spoqa Han Sans";
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  border: none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+fieldset {
+  border: none;
+}
+legend,
+caption {
+  display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+header,
+section,
+footer,
+article,
+aside,
+figure,
+video,
+audio,
+nav {
+  display: block;
+}
+strong,
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+.cf:after,
+.cf:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+`;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <GlobalStyle />
+      <h1>asdasd</h1>
     </div>
   );
 }
