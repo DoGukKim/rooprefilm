@@ -26,6 +26,12 @@ const GlobalStyle = createGlobalStyle`
   font-weight: 500;
   src: url("../public/fonts/Spoqa\ Han\ Sans\ Bold.ttf.ttf");
 }
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +44,7 @@ body {
   font-size: 14px;
   font-family: "Spoqa Han Sans";
   color: #1d1d1f;
+  letter-spacing: 0.0028em;
 }
 a {
   color: inherit;
