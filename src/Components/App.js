@@ -1,26 +1,30 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 
+// Components
+import Router from "./Router";
+
+// Global style
 const GlobalStyle = createGlobalStyle`
 @font-face {
-  font-family: Spoqa Han Sans;
+  font-family: "Spoqa Han Sans";
   font-weight: 200;
-  src: url(../public/fonts/Spoqa\ Han\ Sans\ Thin.ttf);
+  src: url("../public/fonts/Spoqa\ Han\ Sans\ Thin.ttf");
 }
 @font-face {
-  font-family: Spoqa Han Sans;
+  font-family: "Spoqa Han Sans";
   font-weight: 300;
-  src: url(../public/fonts/Spoqa\ Han\ Sans\ Light.ttf);
+  src: url("../public/fonts/Spoqa\ Han\ Sans\ Light.ttf");
 }
 @font-face {
-  font-family: Spoqa Han Sans;
+  font-family: "Spoqa Han Sans";
   font-weight: 400;
-  src: url(../public/fonts/Spoqa\ Han\ Sans\ Regular.ttf.ttf);
+  src: url("../public/fonts/Spoqa\ Han\ Sans\ Regular.ttf.ttf");
 }
 @font-face {
-  font-family: Spoqa Han Sans;
+  font-family: "Spoqa Han Sans";
   font-weight: 500;
-  src: url(../public/fonts/Spoqa\ Han\ Sans\ Bold.ttf.ttf);
+  src: url("../public/fonts/Spoqa\ Han\ Sans\ Bold.ttf.ttf");
 }
 * {
   margin: 0;
@@ -31,7 +35,9 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-size: 14px;
   font-family: "Spoqa Han Sans";
+  color: #1d1d1f;
 }
 a {
   color: inherit;
@@ -95,12 +101,13 @@ input[type="reset"] {
   clear: both;
 }
 `;
+
 function App() {
   return (
-    <div>
+    <>
+      <Router />
       <GlobalStyle />
-      <h1>asdasd</h1>
-    </div>
+    </>
   );
 }
 
