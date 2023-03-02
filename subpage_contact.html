@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description" content="스냅, 웨딩, 뷰티, 프로필 , 음식, 사물 사진 촬영 전문 루프리 필름 입니다.">
+        <meta name="keywords" content="website">
+        <meta property="og:site_name" content="roopre film">
+        <meta property="og:title" content="roopre_film_subcontactpage">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="스냅, 웨딩, 뷰티, 프로필 , 음식, 사물 사진 촬영 전문 루프리 필름 입니다.">
+        <meta property="og:url" content="http://dogukkim.com/rooprefilm/subpage_contact.html">
+        <meta property="og:locale" content="ko_KR">
+        <meta property="og:image" content="img/icon/og-img.png">
+        <title>Roopre Film</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/sub/sub_contact.css">
+        <link rel="shortcut icon" href="img/icon/fav.ico">
+        <link rel="apple-touch-icon" href="img/icon/apple-touch-icon.jpg">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/prefixfree.min.js"></script>
+        <!--[if lt ie 9]> <script src="js/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+    <!-- 페이지 로딩 -->
+    <div id="page__loading__container">
+        <picture class="page__loading__img">
+            <img src="img/icon/page-load.png" alt="page-load-img">
+        </picture>
+    </div>
+    <!-- //페이지 로딩 -->
+    <header id="main-header" class="roopre--gnb" role="banner">
+        <div class="gnb__dimmed"></div>
+        <div class="gnb__wrapper">
+            <nav id="gnb" class="gnb cf" role="navigation">
+                <ul class="gnb__list left" role="menu">
+                    <li class="gnb__item"><a href="index.html">Home</a></li>
+                    <li class="gnb__item category">
+                        <a href="#none">Categorize</a>
+                        <ul class="gnb__sub__list">
+                            <li class="gnb__sub__item"><a href="subpage_snap.html">Snap</a></li>
+                            <li class="gnb__sub__item"><a href="subpage_wedding.html">Wedding</a></li>
+                            <li class="gnb__sub__item"><a href="subpage_beauty.html">Beauty</a></li>
+                            <li class="gnb__sub__item"><a href="subpage_profile.html">Profile</a></li>
+                            <li class="gnb__sub__item"><a href="subpage_food.html">Food</a></li>
+                            <li class="gnb__sub__item"><a href="subpage_product.html">Product</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="gnb__logo" href="index.html">
+                    <h1 class="blind">루프리 필름</h1>
+                    <img src="img/logo.png" alt="gnb-logo">
+                </a>
+                <ul class="gnb__list right" role="menu">
+                    <li class="gnb__item"><a target="_blank" title="Naverstore" href="https://smartstore.naver.com/roopre_film">Shop</a></li>
+                    <li class="gnb__item contact"><a href="#">Contact</a></li>
+                </ul>
+                <button class="gnb__cta--open" onclick="handleOpenMenu()" type="button">
+                    <span class="gnb__open--line line01"></span>
+                    <span class="gnb__open--line line02"></span>
+                    <span class="blind">메뉴 열기</span>
+                </button>
+                <div class="gnb__drop-mobile open-mobile">
+                    <h2 class="blind">모바일 네비게이션</h2>
+                    <div class="gnb__title">
+                        <button class="gnb__cta--close" onclick="handleCloseMenu()" type="button">
+                            <span class="gnb__close--line line01"></span>
+                            <span class="gnb__close--line line02"></span>
+                            <span class="blind">메뉴 닫기</span>
+                        </button>
+                    </div>
+                    <div class="gnb__drop-mobile-wrap">
+                        <div class="gnb__depth__container">
+                            <ul class="gnb__link__list">
+                                <li class="gnb__link__item"><a href="index.html">Home</a></li>
+                                <li class="gnb__link__item category">
+                                    <a href="#none">
+                                        Categorize
+                                        <button class="gnb__sub-cta-open" type="button"></button>
+                                    </a>
+                                    <ul class="gnb__sub__link__list">
+                                        <li class="gnb__sub__link__item"><a href="subpage_snap.html">Snap</a></li>
+                                        <li class="gnb__sub__link__item"><a href="subpage_beauty.html">Beauty</a></li>
+                                        <li class="gnb__sub__link__item"><a href="subpage_wedding.html">Wedding</a></li>
+                                        <li class="gnb__sub__link__item"><a href="subpage_food.html">Food</a></li>
+                                        <li class="gnb__sub__link__item"><a href="subpage_profile.html">Profile</a></li>
+                                        <li class="gnb__sub__link__item"><a href="subpage_product.html">Product</a></li>
+                                    </ul>
+                                </li>
+                                <li class="gnb__link__item"><a href="">Shop</a></li>
+                                <li class="gnb__link__item contact"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main id="main" role="main">
+        <h2 class="blind">사진촬영 웨딩 | 스냅 | 뷰티 | 음식 | 프로필 | 사물</h2>
+        <section id="company-contact" class="roopre roopre--contact section">
+            <h2 id="heading-contact" class="roopre__heading">Contact</h2>
+            <section class="about">
+                <h3 class="blind">루프리 필름 소개</h3>
+                <picture class="ceo__img"></picture>
+                <picture class="company__logo">
+                    <img src="img/logo.png" alt="logo">
+                </picture>
+                <p class="about__desc">
+                    아름다운 일상을 자연스럽게 담아드리는 루프리 필름입니다.
+                    <br>
+                    <strong>사진촬영을 염두에 두고 있거나 문의하고자 하는 경우 <i>/</i>부담없이 연락 주세요 !</strong>
+                </p>
+            </section>
+            <section class="contact">
+                <h3 class="blind">연락처/예약</h3>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <a class="contact__link" href="tel:010-6291-8588">
+                            <figure class="contact__icon call"></figure>
+                            <p class="contact__label">
+                                Phone Call
+                                <br>
+                                <strong>010-6291-8588</strong>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact__link" href="mailto:roopre_film@naver.com">
+                            <figure class="contact__icon mail"></figure>
+                            <p class="contact__label">
+                                E-mail
+                                <br>
+                                <strong>roopre_film@naver.com</strong>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact__link" href="#none">
+                            <figure class="contact__icon kakao"></figure>
+                            <p class="contact__label">
+                                Kakao Talk ID
+                                <br>
+                                <strong>wltn8588</strong>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact__link" href="https://smartstore.naver.com/roopre_film" target="_blank">
+                            <figure class="contact__icon shop"></figure>
+                            <p class="contact__label">
+                                Shop
+                                <br>
+                                <strong>루프리 필름 네이버 쇼핑</strong>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <button id="btn-reserve" class="reserve__cta--open" onclick="handleModalOpen()" type="button">
+                    <figure class="contact__icon reserve"></figure>
+                    <p class="contact__label reserve">사진촬영을 예약하고 싶습니다!</p>
+                </button>
+            </section>
+            <div class="about__sns">
+                <h2 class="roopre__heading heading--sns">SNS</h2>
+                <a class="about__share share--instagram" href="https://www.instagram.com/roopre_film" target="_blank"></a>
+                <a class="about__share share--naverblog" href="https://blog.naver.com/mallow_pic" target="_blank"></a>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" role="contentinfo">
+        <div class="footer__address">
+            <ul class="footer__legal" tabindex="0">
+                <li>사업자등록번호 : 529-59-00377</li>
+                <li>루프리 필름 대표 : 최지수</li>
+                <li><a href="tel:010-6291-8588">TEL : 010-6291-8588</a></li>
+                <li>개인정보 책임자 : 최지수</li>
+            </ul>
+            <p class="info__copy" tabindex="0">
+                ⓒ 2020 Roopre_film Company. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <!-- 예약 모달 창 -->
+    <div id="dialog-reservation" class="reservation roopre--reserve" role="dialog">
+        <h2 class="blind">사진촬영 예약 다이얼로그</h2>
+        <div class="reservation__dimmed"></div>
+        <div class="reservation__inner">
+            <header id="dialog-header" class="heading__dialog">
+                <div class="dialog__icon">
+                    <div class="contact__icon reserve dialog"></div>
+                    <span class="reserve__label">사진촬영을 예약하고 싶습니다!</span>
+                </div>
+                <button class="dialog__cta--close" onclick="handleModalClose()" type="button">
+                    <span class="dialog__close--line line01"></span>
+                    <span class="dialog__close--line line02"></span>
+                </button>
+            </header>
+            <form id="dialog-frm" class="reserve__frm" action="reservation__film" method="POST" role="form">
+                <section id="reserve-frm" class="reservation__film">
+                    <div class="subject">
+                        <label for="name" class="h2">Name</label>
+                        <div class="subject__item">
+                            <input id="name" name="name" class="text" placeholder="최지수" title="성명" required>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <label for="mail" class="h2">E-mail</label>
+                        <div class="subject__item">
+                            <input id="mail" name="mail" class="text" placeholder="hello@example.com" title="이메일" required>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <label for="startdate">Start Date</label>
+                        <div class="subject__item">
+                            <input class="text date" name="start" type="date" required>
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <label for="enddate">End Date</label>
+                        <div class="subject__item">
+                            <input class="text date" name="end" type="date" required>
+                        </div>
+                    </div>
+                    <div class="subject message">
+                        <label for="dm" class="h2">Message</label>
+                        <div class="subject__item">
+                            <textarea id="dm" placeholder="사진 촬영을 문의 하고 싶어요!" name="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="subject check__agree">
+                        <label class="checkbox">
+                            <input name="agree-pp" type="checkbox" required>
+                            <i>
+                                개인정보 수집 및 이용 동의
+                                <b>(필수)</b>
+                            </i>
+                        </label>
+                        <button class="agree__cta--extend" onclick="handleAgreeExtend()" type="button">상세보기</button>
+                        <textarea class="clause__box" name="agree-pp" readonly>개인정보 수집 및 이용 동의
+
+■ 개인정보 수집목적 및 이용목적
+문의 및 메시지 접수
+
+■ 수집하는 개인정보 항목
+성명, 이메일, 주소 등         
+
+■ 개인정보의 보유기간 및 이용기간
+관계 법령의 규정에 따라 귀하의 개인정보를 보존할 의무가 있는 경우가 아닌 한, 회사는 위의 수집 및 이용목적을 달성할 때까지 귀하의 개인정보를 보유 및 이용합니다.                                        
+* 귀하는 위와 같은 일반 개인정보의 수집 및 이용을 거부할 수 있습니다. 다만, 일반 개인정보의 필수적 수집 및 이용에 동의하지 않을 경우 문의 및 메시지 서비스 이용이 불가능합니다.</textarea>
+                    </div>
+                    <div class="subject send__message">
+                        <button class="reserve__cta--send" type="submit">Send message</button>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </div>
+    <!-- //예약 모달 창 -->
+    <!-- 아이콘 저작권 -->
+    <div class="icon__copy--flaticon blind">
+        Icons made by
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </div>
+    <!-- //아이콘 저작권 -->
+    <script>
+        //페이지 로딩 
+        $(window).on("load", function () {
+            $('#page__loading__container').delay(1300).fadeOut()
+        })
+        //
+    </script>
+    <script src="js/index.js"></script>
+</body>
+</html>

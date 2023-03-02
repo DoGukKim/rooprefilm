@@ -1,0 +1,82 @@
+/* 서브 페이지 공통 */
+html { scroll-behavior: smooth; }
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.album__item {
+    height: 560px;
+    margin: 24px 0;
+}
+@media screen and (max-width:768px) { 
+    .album__item { 
+    margin: 24px auto;
+    width: 500px;
+    height: 360px;
+    }
+}
+@media screen and (max-width:568px) { 
+    .album__item { 
+    margin: 24px auto;
+    width: calc(100% - 20px);
+    height: 300px;
+    }
+}
+.album__item:first-child { margin-top: 0px; }
+.item__img {
+    height: 100%;
+    border-radius: 15px;
+    background: no-repeat center;
+    background-size: cover;
+}
+.half--img {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@media screen and (max-width:768px) {
+    .half--img {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        height: 660px;
+    }
+}
+@media screen and (max-width:768px) { .half:last-child { margin: 20px 0 0; } }
+.half { width: 49%;}
+@media screen and (max-width:768px) { .half { width: 100%; } }
+/* GoTop 버튼 */
+.btn__gotop {
+    position: fixed;
+    right: 32px;
+    bottom: 20px;
+    width: 58px;
+    height: 58px;
+    font-size: 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .6);
+}
+@media screen and (max-width:768px) {
+    .btn__gotop {
+        width: 40px;
+        height: 40px;
+        right: 3vw;
+    }
+}
+.btn__gotop::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "\f077";
+    color: #fff;
+    font: 600 26px "Font Awesome 5 Free";
+}
+@media screen and (max-width:768px) { .btn__gotop::after { font-size: 20px; } }
+/* // 서브 페이지 공통 */

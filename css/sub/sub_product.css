@@ -1,0 +1,8 @@
+/* 이미지 삽입 */
+.item__img.product01 { background-image: url(../../img/sub-project/product/1.jpg); }
+.item__img.product02 { background-image: url(../../img/sub-project/product/2.jpg); }
+.item__img.product03 { background-image: url(../../img/sub-project/product/3.jpg); }
+.item__img.product04 { background-image: url(../../img/sub-project/product/4.jpg); }
+.item__img.product04-1 { background-image: url(../../img/sub-project/product/4-1.jpg); }
+.item__img.product05 { background-image: url(../../img/sub-project/product/5.jpg); }
+.item__img.product05-1 { background-image: url(../../img/sub-project/product/5-1.jpg); }

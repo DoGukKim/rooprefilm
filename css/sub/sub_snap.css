@@ -1,0 +1,7 @@
+/* 이미지 삽입 */
+.item__img.snap01 { background-image: url(../../img/sub-project/snap/1.jpg); }
+.item__img.snap02 { background-image: url(../../img/sub-project/snap/2.jpg); }
+.item__img.snap03 { background-image: url(../../img/sub-project/snap/3.jpg); }
+.item__img.snap03-1 { background-image: url(../../img/sub-project/snap/4.jpg); }
+.item__img.snap04 { background-image: url(../../img/sub-project/snap/5.jpg); }
+.item__img.snap04-1 { background-image: url(../../img/sub-project/snap/6.jpg); }

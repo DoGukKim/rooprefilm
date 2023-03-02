@@ -1,0 +1,11 @@
+/* 이미지 삽입 */
+.item__img.food01 { background-image: url(../../img/sub-project/food/1.jpg); }
+.item__img.food02 { background-image: url(../../img/sub-project/food/2.jpg); }
+.item__img.food02-1 { background-image: url(../../img/sub-project/food/2-1.jpg); }
+.item__img.food03 { background-image: url(../../img/sub-project/food/3.jpg); }
+.item__img.food04 { background-image: url(../../img/sub-project/food/4.jpg); }
+.item__img.food04-1 { background-image: url(../../img/sub-project/food/4-1.jpg); }
+.item__img.food05 { background-image: url(../../img/sub-project/food/5.jpg); }
+.item__img.food06 { background-image: url(../../img/sub-project/food/6.jpg); }
+.item__img.food06-1 { background-image: url(../../img/sub-project/food/6-1.jpg); }
+
